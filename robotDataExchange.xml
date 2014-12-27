@@ -1,0 +1,32 @@
+<data>
+<sensors>
+ <nlp>
+  <textCapture language='english'>Hey Anna, how are you doing?</textCapture>
+ </nlp>
+ <proximity>
+  <proximityFront unit='cm'>20</proximityFront>
+  <proximityBack unit='cm'>20</proximityBack>
+ </proximity>
+ <navigation>
+  <angularMomentum unit='kg-m2/sec'>2394</angularMomentum>
+  <linearAccellerationX unit='m2/sec'>23</linearAccellerationX> 
+  <heading unit='deg'>90</heading> 
+ </navigation>
+ <environment>
+  <temperature unit='F'>70</temperature>
+ </environment>
+</sensors>
+<actuators>
+ <nlp>
+  <textReturned emotion='enthousiastic' language='english'>I'm doing great, thank you!</textReturned>
+ </nlp>
+ <locomotion>
+  <fwdSpeed unit='m/s'>20</fwdSpeed>
+  <turnSpeed unit='deg/s'>0</turnSpeed>
+ </locomotion>
+ <limbs>
+  <shoulderPosition unit='percent'>20</shoulderPosition>
+  <elbowPosition unit='percent'>20</elbowPosition>
+ </limbs>
+</actuators>
+</data>
